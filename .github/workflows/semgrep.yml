@@ -5,8 +5,7 @@ push:
 branches:
 - main
 - test
-# содержание action - создание и выполнение контейнера с анализатором
-semgrep
+# содержание action - создание и выполнение контейнера с анализатором semgrep
 jobs:
 semgrep:
 name: semgrep/ci
